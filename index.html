@@ -1,0 +1,177 @@
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<!-- Bootstrap core CSS -->
+<link href="./css/bootstrap.min.css" rel="stylesheet">
+
+<title>Kyle O'Connor</title>
+
+<link href="./css/portboot.css" rel="stylesheet">
+
+<link href="./css/animate.css" rel="stylesheet">
+
+<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'  type='text/css'>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+<script src="https://use.fontawesome.com/ab3a4da77d.js"></script>
+
+<script src="./js/portboot.js"></script>
+
+<script src="./js/bootstrap.min.js"></script>
+
+</head>
+
+<!-- navbar-->
+<body>
+
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <!--<div class="container">-->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="./index.html"><span class="ky">
+          Ky</span>le <span class="jo">Jo</span>seph O'<span class="conn">Conn</span>or</a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <div class="animated slideInRight" style="margin-right: 10px;">
+        <a href="https://www.facebook.com/kyle.oconnor.9843"><i class="fb navbar-form navbar-right fa fa-facebook-official fa-3x"></i></a>
+        <a href="https://www.linkedin.com/in/kyle-o-connor-b4817370"><i class="linked navbar-form navbar-right fa fa-linkedin-square fa-3x"></i></a>
+        </div>
+      </div><!--/.navbar-collapse -->
+  </nav>
+
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <div class="jumbotron">
+    <div class="animated slideInDown" style="margin-left: 50px;"> <!-- removing container -->
+      <h1 class = "hello" style="font-size: 8vw;" >Hey!</h1>
+      <h1 class="greeting" style="font-size: 8vw;">I'm Kyle<span>.</span></h1>
+
+      <div class="container"> <!-- container for modal -->
+
+      <button id="contactme" class="contact btn btn-primary btn-lg" role="button"
+        data-toggle="modal" data-target="#contactmodal" data-backdrop="false">Contact Me »</button>
+
+        <div class="modal fade" id="contactmodal" role="dialog">
+          <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Contact Info</h4>
+              </div>
+              <div class="modal-body">
+                <p>Phone: 209-485-8351</p>
+                <p>Email: kyjoconn@gmail.com</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+
+          </div>
+        </div> <!-- end of modal -->
+
+      </div> <!-- end of modal container -->
+
+    </div>
+  </div>
+
+  <div class="container-fluid"> <!-- grid -->
+
+    <div class="animated row slideInLeft">
+
+      <div class="col-xs-4 rowoverview">
+        <h2 class="rowtitle">My Projects</h2>
+        <p class="rowdescription">Here is a collection of my favorite coding projects</p>
+        <p><a class="rowbutton btn btn-info" href="https://github.com/Kyle628" role="button">Github »</a></p>
+      </div>
+
+      <div class="col-xs-2" style="height: 33%;">
+        <a class = "javaicon fa" href="./consoleapps.html"><img border="0" alt="javaicon" src="./images/terminal.png" width="80%" height="75%"></a><!-- postioned relative to console picture -->
+        <p>Console Applications</p>
+      </div>
+
+      <div class="col-xs-12" style="width: 1px;">
+      </div>
+
+<!-- gonna split up by type rather than language
+      <div class="colel col-md-2">
+        <a href="https://github.com/Kyle628/python-projects"><img border="0" alt="javaicon" src="./python.ico" width="100" height="100"></a>
+      </div>
+
+    -->
+
+      <div class="col-xs-2" style="height: 33%;">
+        <a href="./webapps.html"><img border="0" alt="javaicon" src="./images/internet.png" width="80%" height="75%"></a>
+        <p>Web Apps</p>
+      </div>
+
+      <div class="col-xs-12" style="width: 5px;">
+      </div>
+
+
+      <div class="col-xs-2" style="height: 33%;">
+        <a href="./inprogress.html"><img border="0" alt="javaicon" src="./images/construction.png" width="80%" height="75%" ></a>
+        <p>Projects In Progress</p>
+      </div>
+
+    </div> <!-- end of first row -->
+
+    <div class="row top-buffer">
+      <div class="col-xs-4 rowoverview">
+        <h2 class = "rowtitle">Experience</h2>
+        <p class="rowdescription">Job experience and resume</p>
+        <p><a class="rowbutton btn btn-info" href="http://kyjoconn.com/KyleOconnorResume.pdf" role="button" download>Download Resume »</a></p>
+     </div>
+
+
+     <div class="col-xs-2" style="height: 33%;">
+       <a class = "javaicon fa" href="http://kyjoconn.com/KyleOconnorResume.pdf" download target="_blank"><img border="0" alt="javaicon" src="./images/resume2.png" width="80%" height="75%"></a>
+       <p>Resume</p>
+     </div>
+
+     <div class="col-xs-2" style="height: 33%;">
+       <a class = "javaicon fa" href="http://www.ucsc.edu/"><img border="0" alt="javaicon" src="./images/schoolslug.jpg" width="80%" height="75%"></a>
+       <p>School</p>
+     </div>
+
+
+   </div> <!-- end of second row -->
+
+
+   <div class="row top-buffer">
+      <div class="animated slideInLeft">
+      <div class="col-xs-4 rowoverview">
+        <h2 class="rowtitle">About Me</h2>
+
+        <p class="rowdescription">My name is Kyle O'Connor. I am a student of</p>
+        <p class="rowdescription">Computer Science in my final year at the</p>
+        <p class="rowdescription">beautiful University of California Santa Cruz...</p>
+
+        <p><a class="rowbutton btn btn-info" href="./aboutme.html" role="button">Read More »</a></p>
+      </div>
+      </div>
+
+      <div class="col-xs-4">
+        <img id="surfgif" src="./images/surfstick.gif" alt="studysurf">
+      </div>
+
+  </div> <!-- end of third row -->
+
+</div> <!-- end of grid -->
+
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,126 @@
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+  <title>KyJoConn</title>
+
+  <link href="./css/portboot.css" rel="stylesheet">
+
+  <link href="./css/animate.css" rel="stylesheet">
+
+  <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'  type='text/css'>
+
+  <link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+  <script src="https://use.fontawesome.com/ab3a4da77d.js"></script>
+
+  <script src="./js/webapps.js"></script>
+
+  <script src="./js/bootstrap.min.js"></script>
+
+  </head>
+<!-- navbar-->
+<body>
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="./index.html"><span class="ky">
+          Ky</span>le <span class="jo">Jo</span>seph O'<span class="conn">Conn</span>or</a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <div class="animated slideInRight">
+        <a href="https://www.facebook.com/kyle.oconnor.9843"><i class="fb navbar-form navbar-right fa fa-facebook-official fa-3x"></i></a>
+        <a href="https://www.linkedin.com/in/kyle-o-connor-b4817370"><i class="linked navbar-form navbar-right fa fa-linkedin-square fa-3x"></i></a>
+        </div>
+
+      </div>
+    </div>
+  </nav>
+
+<div style="margin-top: 100px;">
+
+
+<div class="top-buffer dropdown" style="position: relative; width: 200px; display: inline-block; bottom: 200px; left: 20px;">
+<div style="position: relative;"><button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Features
+<span class="caret"></span></button>
+<ul class="dropdown-menu" style="position: absolute;">
+  <li><a href="#" id="browsebutton">Browse</a></li>
+  <li><a href="#" id="addbutton">Add</a></li>
+  <li><a href="#" id="oauthbutton">Oauth</a></li>
+</ul></div>
+  <div id="featuredescription" width=200>
+    <h2>Browse</h2>
+    <p>Browse around the image quilt to see what other users have created. Scroll infinitely and find a place for your art.</p>
+  </div>
+    </div>
+
+    <div style='position: relative; left: 100px; bottom: 10px; width: 500px; height: 400px;display: inline-block; vertical-align: top;'>
+      <div id="imgcontainer">
+        <img src="./images/browse.png" height=400px width=500px>
+      <!--javascript changes controls what video is displayed here-->
+      </div>
+    </div>
+
+    <div style="position: relative; width: 200; height: 400px; display: inline-block;left: 200px;">
+        <h1><a href="http://quilt.pythonanywhere.com">Quilt</a></h1>
+        <p><a href="http://quilt.pythonanywhere.com">Quilt</a> is a social imaging platform, built to enable people to work together creatively
+          to create all new kinds of artwork. Whether it be a mashup of favorite memes, or some well placed
+          cat pics, everyone can make a piece of the quilt their own. This web application was made by myself, and <a href="#">4 others</a>,
+          using the web framework <a href="http://www.web2py.com">web2py</a>. Check out the features menu to see some demos of the site in action.</p>
+    </div>
+
+
+
+<div id="myjumbo">
+  <img id ="jumbopic1" src="./images/quote2.jpg">
+  <img id="jumbopic2" src="./images/coffee.jpg">
+</div>
+
+
+
+<div style="position: relative; width: 200px; display: inline-block;bottom: 100px; left: 20px;">
+<div style="position: relative;"><button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Features
+<span class="caret"></span></button>
+<ul class="dropdown-menu" style="position: absolute;">
+  <li><a id="uploadbutton">Upload</a></li>
+  <li><a id="manipulatebutton">Manipulation</a></li>
+</ul></div>
+<div id="graphicsfeatures" width=200>
+  <h2>Upload</h2>
+  <p>Upload any 3d model in the polygon/vertex form, and see it rendered instantly.</p>
+</div>
+    </div>
+
+    <div style='position: relative; left: 100px;top: 50px; bottom: 10px; width: 500px; height: 400px;display: inline-block; vertical-align: top;'>
+      <div id="graphicscontainer">
+      <!-- changing graphics videos here -->
+      <img src="./images/browse.png" height=400px width=500px>
+      </div>
+    </div>
+
+    <div style="position: relative;top: 100px; width: 200; height: 400px; display: inline-block;left: 200px;">
+        <h1>Graphics</h1>
+        <p><a href="./prog4/index.html">This</a> is a simple graphics rendering program that I made using WebGL.
+          Any model that has a vertex/polygon representation can be rendered. Once rendered, you can use your mouse to
+          move/rotate the object. There are also toggles for flat/Gouraud shading, and orthographic perspective.
+          Check out the features menu to see some demos of the program in action.</p>
+    </div>
+
+</div>
+
+
+
+
+</body>
+
+
+</html>
