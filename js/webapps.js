@@ -83,6 +83,7 @@ $(function() {
   document.getElementById("uploadbutton").addEventListener('click',
     function() {
       WHICH_GRAPHICS_VID = 0;
+      $('#graphicscontainer').html('<img src="./images/upload.png" height=400px width=500px>');
       $('#graphicsfeatures').html('<h2>Upload</h2><p>Upload any 3d model in the polygon/vertex form, and see it rendered instantly.</p>');
     }
   );
@@ -90,6 +91,7 @@ $(function() {
   document.getElementById("manipulatebutton").addEventListener('click',
     function() {
       WHICH_GRAPHICS_VID = 1;
+      $('#graphicscontainer').html('<img src="./images/manipulate.png" height=400px width=500px>');
       $('#graphicsfeatures').html('<h2>Manipulate</h2><p>After uploading your model, translate it, rotate it, and try out different forms of shading, lighting, and cameras.</p>');
     }
   );

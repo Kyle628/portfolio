@@ -5,33 +5,33 @@ $(function() {
 setTimeout(
 function() {
   $('#hi').animate({'opacity':'1'},500);
-}, 1000);
+}, 500);
 
 setTimeout(
   function() {
     $('#imkyle').animate({'opacity':'1'},1000);
-  }, 2000);
+  }, 1000);
 
   setTimeout(
     function() {
       $('#me').animate({'opacity':'1'},1000);
-    }, 2000);
+    }, 1000);
 
 
 setTimeout(
 function() {
   $('#makewebsites').animate({'opacity':'1'},1000);
-}, 3000);
+}, 2000);
 
 setTimeout(
   function() {
     $('#arrow').animate({'opacity':'1'},1000);
-  }, 3000);
+  }, 2000);
 
   setTimeout(
     function() {
       $('#whoami').animate({'opacity':'0'},1000);
-    }, 2000);
+    }, 1000);
 
 //page 2
 
