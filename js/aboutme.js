@@ -81,31 +81,31 @@ $(window).scroll( function(){
         if( bottom_of_window > bottom_of_object ){
           setTimeout(function() {
             $('#notdeveloping').animate({'opacity': '1'}, 1000);
-          }, 500);
+          }, 250);
           setTimeout(function() {
             $('#iliketo').animate({'opacity': '1'}, 1000);
-          }, 1000);
+          }, 500);
           setTimeout(function() {
             $('#surf').animate({'opacity': '1'}, 1500);
-          }, 2000);
+          }, 1000);
           setTimeout(function() {
             $('#surfcaption').animate({'opacity': '1'}, 1500);
-          }, 2000);
+          }, 1000);
           setTimeout(function() {
             $('#game').animate({'opacity': '1'}, 1500);
-          }, 3000);
+          }, 2000);
           setTimeout(function() {
             $('#gamecaption').animate({'opacity': '1'}, 1500);
-          }, 3000);
+          }, 2000);
           setTimeout(function() {
             $('#explore').animate({'opacity': '1'}, 1500);
-          }, 4000);
+          }, 3000);
           setTimeout(function() {
             $('#explorecaption').animate({'opacity': '1'}, 1500);
-          }, 4000);
+          }, 3000);
           setTimeout(function() {
             $('#hobbies').animate({'opacity': '1'}, 1500);
-          }, 4000);
+          }, 3000);
 
         }
 
